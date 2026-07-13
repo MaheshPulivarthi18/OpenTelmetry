@@ -1,0 +1,15 @@
+{
+  "name": "ch02-spans-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chapter 2 exercise: build a small span tree and see a real trace ID + parent-child link",
+  "main": "spans-demo.js",
+  "scripts": {
+    "start": "node spans-demo.js"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/resources": "^1.30.0",
+    "@opentelemetry/sdk-trace-node": "^1.30.0"
+  }
+}

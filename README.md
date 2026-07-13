@@ -14,6 +14,7 @@ I configure this," it's "why does this piece exist in the first place."
 | # | Chapter | Status |
 |---|---|---|
 | 1 | [Why logs alone fail](chapters/01-why-logs-fail/) | ✅ Done |
+| 2 | [Spans, traces, and how they fix Chapter 1](chapters/02-traces-and-spans/) | ✅ Done |
 
 Each chapter's own `README.md` has the full write-up, the exercise, and the commands to run
 it.
