@@ -129,6 +129,22 @@ actually want to know its duration separately, or want to attach its own attribu
 it. A 20ms sleep isn't worth a span. Something that regularly takes over a second — like a
 real database query would — almost always is.
 
+## Scratch example: the plumbing on its own
+
+[`code/coffee-shop-demo.js`](code/coffee-shop-demo.js) — not part of the exercise above, just
+a minimal standalone script isolating the setup pieces that show up in every file in this
+chapter: `Resource` (the name tag for the whole program), `NodeTracerProvider` (the manager
+that owns the tracing setup), `addSpanProcessor` (what happens to a span once it ends),
+`register()` (the "turn it on" switch), `tracer` (the tool used to actually create spans),
+and `startActiveSpan` / the active span (whichever span is currently running is the one any
+new span attaches to as a parent, automatically). Worth running once on its own, with
+nothing else going on, if any of those pieces still feel fuzzy:
+
+```bash
+cd chapters/03-context-propagation/code
+node coffee-shop-demo.js
+```
+
 ## Manual instrumentation, for now
 
 Every span in this chapter — `checkout`, `charge`, `complexTask` — was created by hand, by
