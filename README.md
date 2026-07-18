@@ -15,6 +15,7 @@ I configure this," it's "why does this piece exist in the first place."
 |---|---|---|
 | 1 | [Why logs alone fail](chapters/01-why-logs-fail/) | ✅ Done |
 | 2 | [Spans, traces, and how they fix Chapter 1](chapters/02-traces-and-spans/) | ✅ Done |
+| 3 | [Getting a trace to survive a real network call](chapters/03-context-propagation/) | ✅ Done |
 
 Each chapter's own `README.md` has the full write-up, the exercise, and the commands to run
 it.

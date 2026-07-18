@@ -1,0 +1,11 @@
+{
+  "name": "ch03-context-propagation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chapter 3 exercise, part 2: let the OpenTelemetry SDK build/read the traceparent header instead of hand-rolling it",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/resources": "^1.30.0",
+    "@opentelemetry/sdk-trace-node": "^1.30.0"
+  }
+}
