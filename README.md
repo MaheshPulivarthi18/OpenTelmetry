@@ -17,6 +17,7 @@ I configure this," it's "why does this piece exist in the first place."
 | 2 | [Spans, traces, and how they fix Chapter 1](chapters/02-traces-and-spans/) | ✅ Done |
 | 3 | [Getting a trace to survive a real network call](chapters/03-context-propagation/) | ✅ Done |
 | 4 | [Instrumenting things without writing the span code yourself](chapters/04-manual-instrumentation/) | ✅ Done |
+| 5 | [Where do all these spans actually go?](chapters/05-collector/) | ✅ Done |
 
 Each chapter's own `README.md` has the full write-up, the exercise, and the commands to run
 it.

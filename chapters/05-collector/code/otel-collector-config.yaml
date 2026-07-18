@@ -1,0 +1,30 @@
+# Chapter 5 exercise: a minimal Collector pipeline.
+#
+# receiver: accepts spans over OTLP (both grpc and http), same protocol
+#           every OpenTelemetry SDK speaks by default.
+# processor: batches spans up before sending them onward, instead of one
+#            network call per span (this is what BatchSpanProcessor in
+#            spans-demo.js is handing off to).
+# exporter: "debug" just prints whatever it receives to THIS terminal --
+#           standing in for a real backend, so you can see spans arrive.
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: 0.0.0.0:4317
+      http:
+        endpoint: 0.0.0.0:4318
+
+processors:
+  batch:
+
+exporters:
+  debug:
+    verbosity: detailed
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [debug]

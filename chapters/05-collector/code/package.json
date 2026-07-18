@@ -1,0 +1,12 @@
+{
+  "name": "ch05-collector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chapter 5 exercise: send spans to a real Collector over OTLP instead of printing to the console",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.55.0",
+    "@opentelemetry/resources": "^1.30.0",
+    "@opentelemetry/sdk-trace-node": "^1.30.0"
+  }
+}
