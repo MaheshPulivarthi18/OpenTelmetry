@@ -19,6 +19,7 @@ I configure this," it's "why does this piece exist in the first place."
 | 4 | [Instrumenting things without writing the span code yourself](chapters/04-manual-instrumentation/) | ✅ Done |
 | 5 | [Where do all these spans actually go?](chapters/05-collector/) | ✅ Done |
 | 6 | [What happens when a service doesn't wait for a reply](chapters/06-distributed-tracing/) | ✅ Done |
+| 7 | [What does a database call look like as a span?](chapters/07-database-instrumentation/) | ✅ Done |
 
 Each chapter's own `README.md` has the full write-up, the exercise, and the commands to run
 it.
