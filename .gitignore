@@ -2,3 +2,7 @@ node_modules/
 *.log
 *.out
 *.sqlite
+.DS_Store
+
+# personal content-posting material, not part of the technical repo
+linkedin-post.md
