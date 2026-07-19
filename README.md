@@ -23,6 +23,7 @@ I configure this," it's "why does this piece exist in the first place."
 | 8 | [Calling something you don't control](chapters/08-external-apis/) | ✅ Done |
 | 9 | [When you need the shape of everything, not one request](chapters/09-metrics/) | ✅ Done |
 | 10 | [Closing the loop back to Chapter 1](chapters/10-logs/) | ✅ Done |
+| — | [Advanced topics — a reference, not a straight line](chapters/11-advanced-topics/) | ✅ Done |
 
 Each chapter's own `README.md` has the full write-up, the exercise, and the commands to run
 it.
