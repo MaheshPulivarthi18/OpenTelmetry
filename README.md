@@ -21,6 +21,7 @@ I configure this," it's "why does this piece exist in the first place."
 | 6 | [What happens when a service doesn't wait for a reply](chapters/06-distributed-tracing/) | ✅ Done |
 | 7 | [What does a database call look like as a span?](chapters/07-database-instrumentation/) | ✅ Done |
 | 8 | [Calling something you don't control](chapters/08-external-apis/) | ✅ Done |
+| 9 | [When you need the shape of everything, not one request](chapters/09-metrics/) | ✅ Done |
 
 Each chapter's own `README.md` has the full write-up, the exercise, and the commands to run
 it.
